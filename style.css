@@ -1,0 +1,30 @@
+h1 { 
+    color: red }
+  
+    .header {
+        background-color: beige;
+        display:flex;
+        justify-content : space-between;
+    }
+    .grid{
+        display:flex;
+        flex-wrap: wrap;
+       justify-content: space-between;
+        background-color:#000000; 
+    }
+    p{
+        text-align:center ;
+    }
+    .footer{
+        display: flex;
+        justify-content: flex-end;
+    }
+item{position:relative}
+.item p{position:absolute;
+opacity:0;
+    }
+    .item:hover p{opacity:1}
+    .item:hover img{transform:scale(1.2)}
+
+    a:link{ color:purple}
+    a:visited{color:orange}
